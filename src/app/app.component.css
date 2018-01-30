@@ -1,0 +1,9 @@
+#colorSquares {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+app-single-square {
+  display: flex;
+  flex: 1 1 auto;
+}

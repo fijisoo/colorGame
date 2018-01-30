@@ -1,0 +1,19 @@
+#contener{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.kwadrat {
+  min-width: 100px;
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex: 1 1;
+
+}
+
+.kwadrat:hover {
+  transform: scaleY(1.3);
+  transition: transform ease 1s;
+}
