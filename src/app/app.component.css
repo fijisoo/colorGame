@@ -1,9 +1,46 @@
-#colorSquares {
+#contener {
+  width: 60%;
+  margin-left: 20%;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 app-single-square {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 1 1 auto;
+}
+
+#appSingleSquareLayout{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+#appSquareColorLayout{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+app-square-color{
+  display: flex;
+}
+
+.button_style{
+  width: 50%;
+  margin: 15px 25%;
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 8px;
+}
+
+header>p{
+  text-align: center;
 }

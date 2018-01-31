@@ -16,5 +16,4 @@ export class SingleSquareComponent implements OnInit {
 
 
 
-
 }

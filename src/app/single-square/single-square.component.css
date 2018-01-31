@@ -1,7 +1,8 @@
 #contener{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .kwadrat {
@@ -9,6 +10,7 @@
   max-width: 400px;
   height: 200px;
   display: flex;
+  justify-content: center;
   flex: 1 1;
 
 }
@@ -16,4 +18,12 @@
 .kwadrat:hover {
   transform: scaleY(1.3);
   transition: transform ease 1s;
+}
+
+.kwadrat > p{
+  display: flex;
+  align-items: center;
+}
+p{
+  display: flex;
 }
